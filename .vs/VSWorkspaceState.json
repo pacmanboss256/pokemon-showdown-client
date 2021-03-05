@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\build-tools",
     "\\data",
-    "\\data\\pokemon-showdown",
-    "\\data\\pokemon-showdown\\data"
+    "\\data\\pokemon-showdown"
   ],
-  "SelectedNode": "\\data\\pokemon-showdown\\data\\pokedex.ts",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

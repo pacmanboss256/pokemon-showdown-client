@@ -25,8 +25,8 @@ function ThemeHeaderTemplate() {
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
 	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css?95545b00" />
-	<link rel="stylesheet" href="//pokemonshowdown.com/theme/panels.css?0.9774796752215666" />
-	<link rel="stylesheet" href="//pokemonshowdown.com/theme/main.css?0.4798096609452027" />
+	<link rel="stylesheet" href="//pokemonshowdown.com/theme/panels.css?0.376251559700564" />
+	<link rel="stylesheet" href="//pokemonshowdown.com/theme/main.css?0.5945828233661807" />
 	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/battle.css?5a4bc79e" />
 	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/replay.css?84c2a3d4" />
 	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?dbb7f7f2" />
@@ -53,11 +53,11 @@ function ThemeHeaderTemplate() {
 	<div class="pfx-topbar">
 		<div class="header">
 			<ul class="nav">
-				<li><a class="button nav-first<?php if ($panels->tab === 'home') echo ' cur'; ?>" href="//pokemonshowdown.com/?0.9621726596304558"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png?0.4124906408947804" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
-				<li><a class="button<?php if ($panels->tab === 'pokedex') echo ' cur'; ?>" href="//dex.pokemonshowdown.com/?0.8887024504551924">Pok&eacute;dex</a></li>
-				<li><a class="button<?php if ($panels->tab === 'replay') echo ' cur'; ?>" href="/?0.9102957710049224">Replays</a></li>
-				<li><a class="button<?php if ($panels->tab === 'ladder') echo ' cur'; ?>" href="//pokemonshowdown.com/ladder/?0.5372129096902558">Ladder</a></li>
-				<li><a class="button nav-last" href="//pokemonshowdown.com/forums/?0.46963645178361135">Forum</a></li>
+				<li><a class="button nav-first<?php if ($panels->tab === 'home') echo ' cur'; ?>" href="//pokemonshowdown.com/?0.8006305236154385"><img src="//pokemonshowdown.com/images/pokemonshowdownbeta.png?0.8108436717793295" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
+				<li><a class="button<?php if ($panels->tab === 'pokedex') echo ' cur'; ?>" href="//dex.pokemonshowdown.com/?0.5189101135804808">Pok&eacute;dex</a></li>
+				<li><a class="button<?php if ($panels->tab === 'replay') echo ' cur'; ?>" href="/?0.027398144956446435">Replays</a></li>
+				<li><a class="button<?php if ($panels->tab === 'ladder') echo ' cur'; ?>" href="//pokemonshowdown.com/ladder/?0.907232096223699">Ladder</a></li>
+				<li><a class="button nav-last" href="//pokemonshowdown.com/forums/?0.6742638665586278">Forum</a></li>
 			</ul>
 			<ul class="nav nav-play">
 				<li><a class="button greenbutton nav-first nav-last" href="http://play.pokemonshowdown.com/">Play</a></li>
@@ -77,7 +77,7 @@ function ThemeScriptsTemplate() {
 	<script src="//play.pokemonshowdown.com/js/lib/jquery-1.11.0.min.js?eaec1712"></script>
 	<script src="//play.pokemonshowdown.com/js/lib/lodash.core.js?f87de26d"></script>
 	<script src="//play.pokemonshowdown.com/js/lib/backbone.js?6faf9dcf"></script>
-	<script src="//dex.pokemonshowdown.com/js/panels.js?0.6529404757632966"></script>
+	<script src="//dex.pokemonshowdown.com/js/panels.js?0.9268646962633695"></script>
 <?php
 }
 
@@ -89,16 +89,16 @@ function ThemeFooterTemplate() {
 	<script src="//play.pokemonshowdown.com/js/lib/jquery-cookie.js?c840b994"></script>
 	<script src="//play.pokemonshowdown.com/js/lib/html-sanitizer-minified.js?07b0d32d"></script>
 	<script src="//play.pokemonshowdown.com/js/battle-sound.js?311c9fbc"></script>
-	<script src="//play.pokemonshowdown.com/config/config.js?8baba351"></script>
+	<script src="//play.pokemonshowdown.com/config/config.js?bdce7a37"></script>
 	<script src="//play.pokemonshowdown.com/js/battledata.js?b7c2dd5f"></script>
 	<script src="//play.pokemonshowdown.com/data/pokedex-mini.js?0bdf0184"></script>
 	<script src="//play.pokemonshowdown.com/data/pokedex-mini-bw.js?fbb3d5c1"></script>
 	<script src="//play.pokemonshowdown.com/data/graphics.js?02d723ef"></script>
-	<script src="//play.pokemonshowdown.com/data/pokedex.js?f5864adc"></script>
+	<script src="//play.pokemonshowdown.com/data/pokedex.js?03e672b7"></script>
 	<script src="//play.pokemonshowdown.com/data/items.js?3b87d391"></script>
-	<script src="//play.pokemonshowdown.com/data/moves.js?9e6936b8"></script>
+	<script src="//play.pokemonshowdown.com/data/moves.js?9919dfb1"></script>
 	<script src="//play.pokemonshowdown.com/data/abilities.js?6c8e0726"></script>
-	<script src="//play.pokemonshowdown.com/data/teambuilder-tables.js?67ad5e52"></script>
+	<script src="//play.pokemonshowdown.com/data/teambuilder-tables.js?1f84dc71"></script>
 	<script src="//play.pokemonshowdown.com/js/battle-tooltips.js?9aab62eb"></script>
 	<script src="//play.pokemonshowdown.com/js/battle.js?8c7c3032"></script>
 	<script src="/js/replay.js?51e024e3"></script>

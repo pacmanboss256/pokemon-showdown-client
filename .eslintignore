@@ -1,6 +1,7 @@
 data/
 node_modules/
 /js/lib/
+test/
 /js/battle.js
 /js/battledata.js
 /js/battle-log.js

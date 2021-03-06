@@ -691,7 +691,7 @@ if(move.flags.powder){
 text+="<p class=\"movetag\">&#x2713; Powder <small>(doesn't affect Grass, Overcoat, Safety Goggles)</small></p>";
 }
 if(move.flags.punch&&ability==='ironfist'){
-text+="<p class=\"movetag\">&#x2713; Fist <small>(boosted by Iron Fist)</small></p>";
+text+="<p class=\"movetag\">&#x2713; Super Effective <small>(boosted by Fatal Precision)</small></p>";
 }
 if(move.flags.kick&&ability==='striker'){
 text+="<p class=\"movetag\">&#x2713; Kick <small>(boosted by Striker)</small></p>";

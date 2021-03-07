@@ -1,7 +1,7 @@
 data/*
 node_modules/
 /js/lib/
-
+config/testclient-key.js
 /js/battle.js
 /js/battledata.js
 /js/battle-log.js

@@ -696,7 +696,7 @@ class BattleTooltips {
 			if (move.flags.kick && ability === 'striker') {
 				text += `<p class="movetag">&#x2713; Kick <small>(boosted by Striker)</small></p>`;
 			}
-			if (move.flags.blade && ability === 'Blademaster') {
+			if (move.flags.blade && ability === 'blademaster') {
 				text += `<p class="movetag">&#x2713; Blade <small>(boosted by Blademaster)</small></p>`;
 			}
 			if (move.flags.pulse && ability === 'megalauncher') {

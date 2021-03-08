@@ -8,13 +8,12 @@
 node_modules/
 eslint-cache/
 .DS_Store
-/data/*
 Thumbs.db
 npm-debug.log
 package-lock.json
 /vendor/
 config/testclient-key.js
-
+data/
 /js/battle.js
 /js/battledata.js
 /js/battle-log.js

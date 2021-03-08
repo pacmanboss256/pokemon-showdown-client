@@ -1,6 +1,6 @@
-data/*
 node_modules/
 /js/lib/
+data/*
 config/testclient-key.js
 /js/battle.js
 /js/battledata.js

@@ -23,7 +23,7 @@ Config.defaultserver = {
 	port: 443,
 	httpport: 8000,
 	altport: 80,
-	registered: true
+	registered: false
 };
 
 Config.roomsFirstOpenScript = function () {

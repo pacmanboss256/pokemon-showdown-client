@@ -12,7 +12,7 @@ npm-debug.log
 package-lock.json
 /vendor/
 config/testclient-key.js
-data/
+data/pokemon-showdown
 /js/battle.js
 /js/battledata.js
 /js/battle-log.js

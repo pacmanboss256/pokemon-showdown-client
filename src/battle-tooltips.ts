@@ -991,6 +991,9 @@ class BattleTooltips {
 			if (this.battle.gen >= 4) stats.atk *= 2;
 			stats.spa *= 2;
 		}
+		if (item === 'stick' && species === 'Farfetchd') {
+			stats.spe = Math.floor(stats.spe * 1.5);
+		}
 
 		if (item === 'thickclub') {
 			if (species === 'Marowak' || species === 'Cubone') {
@@ -1037,8 +1040,14 @@ class BattleTooltips {
 		if (ability === 'purepower' || ability === 'hugepower') {
 			stats.atk *= 2;
 		}
+		if (ability === 'felinepower') {
+			stats.spa *= 2;
+		}
 		if (ability === 'hustle' || (ability === 'gorillatactics' && !clientPokemon?.volatiles['dynamax'])) {
 			stats.atk = Math.floor(stats.atk * 1.5);
+		}
+		if (ability === 'sagepower' && !clientPokemon?.volatiles['dynamax']) {
+			stats.spa = Math.floor(stats.spa * 1.5);
 		}
 		if (weather) {
 			if (this.battle.gen >= 4 && this.pokemonHasType(serverPokemon, 'Rock') && weather === 'sandstorm') {
@@ -1364,6 +1373,7 @@ class BattleTooltips {
 			if (value.tryWeather('Desolate Land')) value.set(50, 'Desolate Land');
 		}
 		value.abilityModify(0, 'No Guard');
+
 		if (!value.value) return value;
 		if (move.ohko) {
 			if (this.battle.gen === 1) {

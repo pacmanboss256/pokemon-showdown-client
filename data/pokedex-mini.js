@@ -636,7 +636,7 @@ exports.BattlePokemonSprites = {
 	probopass:{num:476},
 	dusknoir:{num:477},
 	froslass:{num:478},
-	rotom:{num:479},
+	rotom:{num:-7},
 	rotomheat:{num:479},
 	rotomwash:{num:479},
 	rotomfrost:{num:479},

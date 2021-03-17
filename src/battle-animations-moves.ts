@@ -32118,7 +32118,7 @@ const BattleMoveAnims: AnimTable = {
 
 // placeholder animations
 BattleMoveAnims['torment'] = {anim: BattleMoveAnims['swagger'].anim};
-
+BattleMoveAnims['aquafang'] = {anim: BattleMoveAnims['crunch'].anim};
 BattleMoveAnims['mefirst'] = {anim: BattleMoveAnims['mimic'].anim};
 
 BattleMoveAnims['conversion2'] = {anim: BattleMoveAnims['conversion'].anim};
